@@ -33,7 +33,7 @@ rule kraken2_biom:
 
 rule classic_k2_biom:
     input:
-        str(CLASSIFY_FP/'kraken2'/'all_samples.biom')
+        str(CLASSIFY_FP/'kraken2'/'all_samples_kraken2.biom')
     output:
         str(CLASSIFY_FP/'kraken2'/'all_samples_kraken2.tsv')
     shell:
